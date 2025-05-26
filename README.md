@@ -1,30 +1,10 @@
-# Elevate-Labs-Task-1
-task one of internship
-Successfully performed the scan using NMap with the following results
-Starting Nmap 7.97 ( https://nmap.org ) at 2025-05-26 21:41 +0530
-Failed to resolve "".
-Nmap scan report for 192.168.29.105
-Host is up (0.0000050s latency).
-Not shown: 96 closed tcp ports (reset)
-PORT     STATE SERVICE
-135/tcp  open  msrpc
-139/tcp  open  netbios-ssn
-445/tcp  open  microsoft-ds
-5357/tcp open  wsdapi
-
-Nmap done: 1 IP address (1 host up) scanned in 4.76 seconds
-
-
-Starting Nmap 7.97 ( https://nmap.org ) at 2025-05-26 21:43 +0530
-Failed to resolve "".
-Nmap scan report for 192.168.29.105
-Host is up (0.00049s latency).
-Not shown: 995 closed tcp ports (reset)
-PORT     STATE SERVICE
-135/tcp  open  msrpc
-139/tcp  open  netbios-ssn
-445/tcp  open  microsoft-ds
-5357/tcp open  wsdapi
-9090/tcp open  zeus-admin
-
-Nmap done: 1 IP address (1 host up) scanned in 4.75 seconds
+Downloaded NMap
+Studied about TCP SYN scan and how -sS scan means stealth scan performs
+what are open ports 
+what are closed ports
+what are filtered ports
+Created a new Github Account
+Created a Github Repository
+Added my results of scan in .txt format
+Added a readme file
+further exploring NMap and its associated uses.
