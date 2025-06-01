@@ -1,0 +1,77 @@
+Starting Nmap 7.97 ( https://nmap.org ) at 2025-05-27 16:49 +0530
+Nmap scan report for dsldevice.lan (192.168.1.1)
+Host is up (0.0033s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT    STATE    SERVICE
+22/tcp  filtered ssh
+23/tcp  filtered telnet
+80/tcp  open     http
+443/tcp open     https
+MAC Address: 60:BD:2C:1C:CB:30 (Taicang T&W Electronics)
+
+Nmap scan report for 192.168.1.2
+Host is up (0.069s latency).
+All 1000 scanned ports on 192.168.1.2 are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+MAC Address: C0:3C:59:01:AE:B4 (Intel Corporate)
+
+Nmap scan report for 192.168.1.5
+Host is up (0.065s latency).
+All 1000 scanned ports on 192.168.1.5 are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+MAC Address: 8C:3B:4A:A6:35:2F (Universal Global Scientific Industrial)
+
+Nmap scan report for 192.168.1.7
+Host is up (0.15s latency).
+All 1000 scanned ports on 192.168.1.7 are in ignored states.
+Not shown: 783 closed tcp ports (reset), 217 filtered tcp ports (no-response)
+MAC Address: A2:66:12:A0:E0:45 (Unknown)
+
+Nmap scan report for 192.168.1.8
+Host is up (0.0030s latency).
+Not shown: 999 filtered tcp ports (no-response)
+PORT     STATE SERVICE
+7070/tcp open  realserver
+MAC Address: 04:E8:B9:92:93:7A (Intel Corporate)
+
+Nmap scan report for 192.168.1.16
+Host is up (0.058s latency).
+All 1000 scanned ports on 192.168.1.16 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 52:3B:32:12:E6:AA (Unknown)
+
+Nmap scan report for 192.168.1.17
+Host is up (0.0050s latency).
+Not shown: 994 closed tcp ports (reset)
+PORT     STATE    SERVICE
+135/tcp  open     msrpc
+139/tcp  open     netbios-ssn
+445/tcp  open     microsoft-ds
+2701/tcp open     sms-rcinfo
+3389/tcp open     ms-wbt-server
+9000/tcp filtered cslistener
+MAC Address: F8:89:D2:B4:76:F5 (Cloud Network Technology Singapore PTE.)
+
+Nmap scan report for 192.168.1.18
+Host is up (0.058s latency).
+All 1000 scanned ports on 192.168.1.18 are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+MAC Address: 50:C2:E8:52:6A:8B (Cloud Network Technology Singapore PTE.)
+
+Nmap scan report for 192.168.1.33
+Host is up (0.098s latency).
+All 1000 scanned ports on 192.168.1.33 are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+MAC Address: D4:54:8B:D5:EA:17 (Intel Corporate)
+
+Nmap scan report for 192.168.1.13
+Host is up (0.00s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+5357/tcp open  wsdapi
+9090/tcp open  zeus-admin
+
+Nmap done: 254 IP addresses (10 hosts up) scanned in 1394.65 seconds
